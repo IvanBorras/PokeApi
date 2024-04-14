@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./pokedex.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Bungee+Spice&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    
+        <header>
+            <h1>POKEAPI</h1>
+            <div class="imgBolas">
+                <img class="bolaPokemon" src="https://www.adhesivosnatos.com/wp-content/uploads/2016/08/pokemon-bola-3colores.png" alt="">
+                <img class="bolaPokemon2" src="https://www.adhesivosnatos.com/wp-content/uploads/2016/08/pokemon-bola-3colores.png" alt="">
+            </div>
+
+            <div class="inputPokemon">
+                <span>
+                    <p>Busca a tu pokemon favorito</p>
+                    <label for="input"><input id="input" type="text" placeholder="Introduce el nombre del pokemon"></label>
+                </span>
+            </div>
+            <div class="searchPokemon">
+                <nav class="navTipo">
+                    <ol>
+                        <li><button class="btn-header all">ver todos</button></li>
+                        <li><button class="btn-header normal">normal</button></li>
+                        <li><button class="btn-header water">water</button></li>
+                        <li><button class="btn-header fire">fire</button></li>
+                        <li><button class="btn-header ice">ice</button></li>
+                        <li><button class="btn-header electric">electric</button></li>
+                        <li><button class="btn-header grass">grass</button></li>
+                        <li><button class="btn-header ground">ground</button></li>
+                        <li><button class="btn-header poison">poison</button></li>
+                        <li><button class="btn-header flying">flying</button></li>
+                        <li><button class="btn-header bug">bug</button></li>
+                        <li><button class="btn-header fairy">fairy</button></li>
+                        <li><button class="btn-header psychic">psychic</button></li>
+                        <li><button class="btn-header dragon">dragon</button></li>
+                        <li><button class="btn-header rock">rock</button></li>
+                        <li><button class="btn-header fighting">fighting</button></li>
+                        <li><button class="btn-header ghost">ghost</button></li>
+                    </ol>
+                </nav>
+            </div>
+            <img class="imgHeader" src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/2f642e38717551.576c1f0539310.png" alt="">
+        </header>
+
+    <main class="main">
+
+        <section>
+            <ol id="pokedex">
+                <li id="pokemonList">
+                    <div class="pokemon">
+                        
+                    </div>
+                </li>
+            </ol>
+        </section>
+    </main>
+
+        <footer>
+            <div class="paginationContainer">
+                <div><button class="button" id="prevButton">Anterior</button></div>
+                <div id="currentPage" class="pagination">1</div>
+                <div><button class="button" id="nextButton">Siguiente</button></div>
+            </div>
+        </footer> 
+</body>
+
+</html>
+
